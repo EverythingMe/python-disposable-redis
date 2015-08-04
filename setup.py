@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='disposable-redis',
-    version='0.1',
+    version='0.2',
     description='',
     author='EverythingMe',
     author_email='omrib@everything.me',
