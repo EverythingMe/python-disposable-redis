@@ -1,4 +1,4 @@
-# python-disposable-redis
+# disposable-redis
 
 Disposable Redis for your Unittests
 
