@@ -52,6 +52,8 @@ class DisposableRedis(object):
             except redis.ConnectionError:
                 time.sleep(0.1)
 
+        return self.client()
+
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.process.terminate()
 
